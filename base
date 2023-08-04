@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog de Rafa</title>
+    <style>
+        th,table{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo"> Blog de Rafa</h1> <!--esto es un comentario-->
+    </header>
+    <section>
+        <article>
+            <h2 style="color: rgb(255, 0, 0);"> titulo de mi post </h2>
+            <P>descripcion de mi post</P>
+            <img src="img/descarga.jpg" width="400">
+            <p>Texto del articulo que hay aqui y es texto de prueva</p>
+            <table>
+                <thead>
+                    <th>precio</th>
+                    <th>producto</th>
+                </thead>
+                   <tbody>
+                    <th>100€</th>
+                    <th>Pajaro volador</th>
+                   </tbody>
+                <tfoot>
+                    <th>100€</th>
+                    <th>:total</th>
+                </tfoot>
+            </table>
+        </article>
+        <hr>
+        <article>
+            <h2>titulo de mi post 2</h2>
+            <P>descripcion de mi post 2</P>
+            <img src="img/image.png" width="200">
+            <ul>
+                <li>hola
+                    <ul>
+                        <li style="list-style-type: lower-roman;" >hola</li>
+                        <li style="list-style-type: lower-roman;">hola</li>
+                        <li style="list-style-type: lower-roman;">hola</li>
+                        <li style="list-style-type: lower-roman;">hola</li>
+                    </ul>
+                </li>
+                <li>hola</li>
+                <li>hola</li>
+                <li>hola</li>
+
+            </ul>
+            <ol>
+                <li value="90">hola</li>
+                <li>hola</li>
+                <li>hola</li>
+                <li>hola</li>
+
+            </ol>
+        </article>
+        <hr>
+        <article>
+            <h2>titulo de mi post 3</h2>
+            <P>descripcion de mi post 3</P>
+            <img src="img/images.jpg" width="400">
+            <p>Texto del articulo que hay aqui y es texto de prueva</p>
+        </article>
+    </section>
+    <form action="/formulario" method="GET">
+        <label for="Nombre">Nombre </label>
+        <input id="Nombre" name="Nombre" placeholder="Escrive aqui..." /> <br>
+        <input type="submit">
+    
+    <footer>
+        <a href="#titulo"> clic para ir al principio</a>
+        <a href="mailto:rafa.lopez.picon0@gmail.com">contactame</a>
+        <a target="_blank" href="https://www.google.es">ir</a>
+    </form>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Blog de Rafa</title>
+    <style>
+        th,table{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo"> Blog de Rafa</h1> <!--esto es un comentario-->
+    </header>
+    <section>
+        <article>
+            <h2 style="color: rgb(255, 0, 0);"> titulo de mi post </h2>
+            <P>descripcion de mi post</P>
+            <img src="img/descarga.jpg" width="400">
+            <p>Texto del articulo que hay aqui y es texto de prueva</p>
+            <table>
+                <thead>
+                    <th>precio</th>
+                    <th>producto</th>
+                </thead>
+                   <tbody>
+                    <th>100€</th>
+                    <th>Pajaro volador</th>
+                   </tbody>
+                <tfoot>
+                    <th>100€</th>
+                    <th>:total</th>
+                </tfoot>
+            </table>
+        </article>
+        <hr>
+        <article>
+            <h2>titulo de mi post 2</h2>
+            <P>descripcion de mi post 2</P>
+            <img src="img/image.png" width="200">
+            <ul>
+                <li>hola
+                    <ul>
+                        <li style="list-style-type: lower-roman;" >hola</li>
+                        <li style="list-style-type: lower-roman;">hola</li>
+                        <li style="list-style-type: lower-roman;">hola</li>
+                        <li style="list-style-type: lower-roman;">hola</li>
+                    </ul>
+                </li>
+                <li>hola</li>
+                <li>hola</li>
+                <li>hola</li>
+
+            </ul>
+            <ol>
+                <li value="90">hola</li>
+                <li>hola</li>
+                <li>hola</li>
+                <li>hola</li>
+
+            </ol>
+        </article>
+        <hr>
+        <article>
+            <h2>titulo de mi post 3</h2>
+            <P>descripcion de mi post 3</P>
+            <img src="img/images.jpg" width="400">
+            <p>Texto del articulo que hay aqui y es texto de prueva</p>
+        </article>
+    </section>
+    <form action="/formulario" method="GET">
+        <label for="Nombre">Nombre </label>
+        <input id="Nombre" name="Nombre" placeholder="Escrive aqui..." /> <br>
+        <input type="submit">
+    
+    <footer>
+        <a href="#titulo"> clic para ir al principio</a>
+        <a href="mailto:rafa.lopez.picon0@gmail.com">contactame</a>
+        <a target="_blank" href="https://www.google.es">ir</a>
+    </form>
+    </footer>
+</body>
+</html>
